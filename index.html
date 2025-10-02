@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Hany Boshra - Laravel Backend Engineer</title>
+    <meta name="description" content="Portfolio of Ahmed Hany Boshra, Laravel Backend Engineer with 2+ years experience in PHP, MySQL, and API development">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="nav-logo">AH</span>
+                <span class="nav-name" style="color: blue;">Ahmed Hany</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#featured-project" class="nav-link">Featured</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="text-gradient">Ahmed Hany Boshra</span>
+                    </h1>
+                    <div class="hero-subtitle">
+                        <span>I'm </span>
+                        <span class="typing-text" id="typing-text"></span>
+                        <span class="cursor">|</span>
+                    </div>
+                    <p class="hero-description">
+                        Dedicated Laravel Backend Developer with 2+ years of experience building scalable backend systems. 
+                        Currently transforming ideas into high-performance applications at Generation-C.
+                    </p>
+                    <div class="hero-contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Cairo, Egypt</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>ahmed.hany.boshra@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+20 1065232774</span>
+                        </div>
+                    </div>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn--primary">
+                            <i class="fas fa-code"></i>
+                            View Projects
+                        </a>
+                        <a href="#contact" class="btn btn--outline">
+                            <i class="fas fa-download"></i>
+                            Get In Touch
+                        </a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://github.com/Ahmed-Hany-Aou" target="_blank" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/ahmed-hany-aou" target="_blank" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-placeholder">
+                        <img src="profile_pic.png" alt="Ahmed Hany Boshra" class="image-placeholder hero-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate Laravel developer with a drive for innovation</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        Dedicated PHP Backend Developer with 2+ years of hands-on experience building and optimizing backend systems using PHP, Laravel, and MySQL. Currently working as Backend Developer at Generation-C since August 2023, with proven ability to translate complex requirements into clean, high-performance code.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-group">
+                            <h3>Current Role</h3>
+                            <p><strong>Backend Developer</strong> at Generation-C</p>
+                            <p class="text-secondary">Aug 2023 - Present</p>
+                        </div>
+                        <div class="detail-group">
+                            <h3>Education</h3>
+                            <p><strong>Dual Bachelor's in Computer Science</strong></p>
+                            <p class="text-secondary">Arab Open University (2019-2023)</p>
+                        </div>
+                        <div class="detail-group">
+                            <h3>Personal Info</h3>
+                            <p><strong>Age:</strong> 24 years old (Born March 21, 2001)</p>
+                            <p><strong>Location:</strong> Cairo, Egypt</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-achievements">
+                    <h3>Key Achievements</h3>
+                    <div class="achievement-grid">
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>10,000+ Users</h4>
+                                <p>Platforms serving thousands of active users</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>15+ Features</h4>
+                                <p>Comprehensive ERP system development</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>2+ Years</h4>
+                                <p>Professional Laravel development experience</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>Filament Forever</h4>
+                                <p>Passionate about modern admin interfaces</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Project Section -->
+    <section id="featured-project" class="featured-project">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Project</h2>
+                <p class="section-subtitle">Real-world API integration showcase</p>
+            </div>
+            <div class="featured-content">
+                <div class="featured-info">
+                    <div class="project-header">
+                        <h3 class="project-title">Family Financial Tracker</h3>
+                        <div class="project-badges">
+                            <span class="badge badge--success">Live Integration</span>
+                            <span class="badge badge--info">Production Ready</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Enhanced for Hypersender application with real-time WhatsApp notifications via your API. Built with Laravel 11 + Filament v4, demonstrating practical API integration skills, comprehensive testing, and production-ready implementation.
+                    </p>
+                    <div class="project-features">
+                        <div class="feature-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <div class="feature-content">
+                                <h4>Hypersender Integration</h4>
+                                <p>Real-time WhatsApp notifications</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-vial"></i>
+                            <div class="feature-content">
+                                <h4>PHPUnit Testing</h4>
+                                <p>Comprehensive test coverage</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-cog"></i>
+                            <div class="feature-content">
+                                <h4>Filament v4 Admin</h4>
+                                <p>Modern admin interface</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-credit-card"></i>
+                            <div class="feature-content">
+                                <h4>Multi-Currency</h4>
+                                <p>Advanced financial tracking</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Laravel 11</span>
+                        <span class="tech-tag">Filament v4</span>
+                        <span class="tech-tag">Hypersender API</span>
+                        <span class="tech-tag">PHPUnit</span>
+                        <span class="tech-tag">MySQL</span>
+                    </div>
+                </div>
+                <div class="featured-code">
+                    <div class="code-tabs">
+                        <button class="tab-button active" data-tab="integration">Integration</button>
+                        <button class="tab-button" data-tab="testing">Testing</button>
+                    </div>
+                    <div class="code-content">
+                        <div class="tab-pane active" id="integration">
+                            <pre><code class="language-php">// Live Hypersender Integration
+$url = "https://app.hypersender.com/api/whatsapp/v1/{$instanceId}/send-text";
+$message = "New account created:\n"
+. "👤 For: {$member->name}\n"
+. "💳 Account: {$account->name}\n"
+. "💵 USD: {$account->usd_balance}";
+
+// Real API integration with error handling
+return Http::withToken($apiKey)
+    ->post($url, ['text' => $message]);</code></pre>
+                        </div>
+                        <div class="tab-pane" id="testing">
+                            <pre><code class="language-php">// Comprehensive PHPUnit Tests
+Http::fake([
+    'status' => 'PENDING'
+], 201);
+
+$service->sendAccountCreated($member, $account);
+
+Http::assertSent(function ($request) {
+    return str_contains($request->url, 'send-text');
+});</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projects</h2>
+                <p class="section-subtitle">A collection of my recent work and contributions</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-ticket-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Ticket Management System</h3>
+                        <p class="project-description">
+                            Dual-platform system using Oracle Apex and Laravel RESTful API. Intelligent search by real-world ticket numbers and interactive dashboard for streamlined ticket management.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Oracle Apex</span>
+                            <span class="tech-tag">Laravel API</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">PL/SQL</span>
+                        </div>
+                        <div class="project-type">
+                            <span class="badge badge--warning">Generation-C Project</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-commerce Platform</h3>
+                        <p class="project-description">
+                            Full-featured platform with 3 payment methods, multi-authentication for 10,000+ users, real-time notifications via Pusher, and dual themes for enhanced user experience.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">PayPal</span>
+                            <span class="tech-tag">Stripe</span>
+                            <span class="tech-tag">Pusher</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                        <div class="project-type">
+                            <span class="badge badge--info">Personal Project</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">School ERP System</h3>
+                        <p class="project-description">
+                            Comprehensive system managing 15+ core features including academics, attendance, and financial modules with dynamic admin dashboard for streamlined school operations.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">AJAX</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                        <div class="project-type">
+                            <span class="badge badge--info">Personal Project</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">News Portal</h3>
+                        <p class="project-description">
+                            Dynamic portal with 10+ core features, admin panel, widgets integration (ads, live TV, prayer calendar) designed for thousands of daily visitors with optimized content delivery.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                        <div class="project-type">
+                            <span class="badge badge--info">Personal Project</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <p class="section-subtitle">Technologies and tools I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-server"></i>
+                        Backend Development
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">PHP Laravel</div>
+                        <div class="skill-item">MySQL MongoDB</div>
+                        <div class="skill-item">RESTful APIs</div>
+                        <div class="skill-item">Oracle Database</div>
+                        <div class="skill-item">PL/SQL</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-palette"></i>
+                        Frontend UI
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">HTML5 CSS3</div>
+                        <div class="skill-item">JavaScript jQuery</div>
+                        <div class="skill-item">Bootstrap</div>
+                        <div class="skill-item">AJAX</div>
+                        <div class="skill-item">Filament v4</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-tools"></i>
+                        Development Tools
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">Git GitHub</div>
+                        <div class="skill-item">PHPUnit Testing</div>
+                        <div class="skill-item">Postman Swagger</div>
+                        <div class="skill-item">XAMPP/MAMP</div>
+                        <div class="skill-item">Linux</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-plug"></i>
+                        Enterprise APIs
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">Oracle Apex</div>
+                        <div class="skill-item">Payment Integration</div>
+                        <div class="skill-item">Agile Jira</div>
+                        <div class="skill-item">Token Authentication</div>
+                        <div class="skill-item">Real-time Notifications</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's discuss how I can help bring your project to life</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>ahmed.hany.boshra@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+20 1065232774</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Cairo, Egypt</p>
+                        </div>
+                    </div>
+                    <div class="contact-message">
+                        <h3><span class="text-gradient">Filament Forever</span></h3>
+                        <p>Passionate developer ready to tackle your next challenge with clean, efficient Laravel solutions.</p>
+                        <div class="social-links">
+                            <a href="https://github.com/Ahmed-Hany-Aou" target="_blank" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://linkedin.com/in/ahmed-hany-aou" target="_blank" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full-width">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Ahmed Hany Boshra. All rights reserved.</p>
+                <p>Built with passion using modern web technologies.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
